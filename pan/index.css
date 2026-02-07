@@ -1,0 +1,22 @@
+
+
+.d-block{
+    width : 100%;
+    height : 100%;
+}
+
+#col1{
+    background-color : red;
+}
+#col2{
+    background-color : blue;
+}
+#col3{
+    background-color : green;
+}
+#col4{
+    background-color : yellow;
+}
+#col5{
+    background-color : pink;
+}
