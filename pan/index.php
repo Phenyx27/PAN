@@ -3,44 +3,37 @@
 
 <head>
 	<meta charset="utf-8" />
+	<link rel=stylesheet href="bootstrap">
 	<link rel=stylesheet href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="logo_pan.png">
 
-	<title>Ceci est une page HTML de test</title>
+	<title>Portail des Antiquités Numériques</title>
 </head>
 <header>
 	<?php include 'header.php'; ?>
 </header>
 
 <body>
-	<h2>Page de test</h2>
-	<background style="color ; yellow;"></style> 
-
-	<p>
-		Cette page contient <strong>uniquement</strong> du code HTML.<br />
-
-
-		Voici quelques petits tests :
-
-
-	</p>
-	<?php echo "Celle-ci a été écrite entièrement en PHP."; ?>
-	<p>Aujourd'hui nous sommes le <?php echo date('d/m/Y h:i:s'); ?>.</p>
-	<ul>
-		<li style="color: blue;">Texte en bleu</li>
-		<li style="color: red;">Texte en rouge</li>
-		<li style="color: green;">Texte en vert</li>
-	</ul>
-
+	<h2>"La bibliothèque des ressources numériques sur l'Antiquité"</h2>
 
 	<div class="container">
 		<div class="row">
-			<div class="col" id="col1">col</div>
-			<div class="col" id="col2">col
+			<div class="col-12">
+				<!-- barre de recherche -->
+				<div class="input-group mb-3">
+					<input type="text" class="form-control" placeholder="Rechercher une ressource"
+						aria-label="Rechercher une ressource" aria-describedby="button-search">
+					<button class="btn btn-outline-secondary" type="button" id="button-search">Rechercher</button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4" id="col1">col</div>
+			<div class="col-4" id="col2">col
 
 			</div>
-			<div class="col" id="col3">col</div>
-			<div class="col" id="col4">col</div>
+			<div class="col-4" id="col3">col</div>
 		</div>
 		<div class="row">
 			<div class="col-8" id="col5">

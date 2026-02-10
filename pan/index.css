@@ -1,8 +1,17 @@
-
+h2 {
+    text-align : center;
+    margin : 20px;
+    font-size : 1.5rem;
+}
 
 .d-block{
     width : 100%;
     height : 100%;
+}
+
+#col0{
+    background-color : gray;
+    text-align: center;
 }
 
 #col1{
