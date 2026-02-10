@@ -32,6 +32,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Carte 1</h5>
 						<p class="card-text">Description de la carte 1.</p>
+						<a href="#" class="btn btn-primary">Voir le catalogue</a>
 					</div>
 				</div>
 			</div>
