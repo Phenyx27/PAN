@@ -9,14 +9,20 @@ h2 {
     height : 100%;
 }
 
+.card {
+    width : 18rem ; 
+}
+
+.card-1{
+    background-color: #yellow;
+    padding-right : 50rem; 
+}
+
 #col0{
     background-color : gray;
     text-align: center;
 }
 
-#col1{
-    background-color : red;
-}
 #col2{
     background-color : blue;
 }
