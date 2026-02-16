@@ -101,7 +101,7 @@
 							<img src="rome.jpg" class="d-block" alt="Slide 2">
 						</div>
 
-						<div class="carousel-item" data-bs-interval="4000">
+						<div class="carousel-item" data-bs-interval="5000">
 							<img src="senat.jpg" class="d-block" alt="Slide 3">
 						</div>
 
