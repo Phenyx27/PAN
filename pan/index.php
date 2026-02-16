@@ -18,12 +18,14 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12">
-				<!-- barre de recherche -->
-				<div class="input-group mb-3">
-					<input type="text" class="form-control" placeholder="Rechercher une ressource"
-						aria-label="Rechercher une ressource" aria-describedby="button-search">
-					<button class="btn btn-outline-secondary" type="button" id="button-search">Rechercher</button>
+				
+				<form action="recherche.php" method="get">
+					<div class="input-group mb-3">
+    				<input type="text" name="q"  class="form-control" placeholder="Rechercher une ressource" 
+							aria-label="Rechercher une ressource" aria-describedby="button-search">
+    				<button type="submit" class="btn btn-outline-secondary">Rechercher</button>
 				</div>
+				</form>
 			</div>
 		</div>
 		<div class="row">
