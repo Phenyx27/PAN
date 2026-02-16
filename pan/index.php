@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<link rel="shortcut icon" href="logo_pan.png">
+	<link rel="shortcut icon" href="logo_pan_1.png">
 	<link rel=stylesheet href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<title>Portail des Antiquités Numériques</title>
