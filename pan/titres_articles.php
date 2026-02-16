@@ -3,7 +3,7 @@ $articles = [
     [
         "titre" => "Thesaurus Linguae Graecae",
         "description" => "Base de données de textes grecs anciens",
-        "url" => "https://stephanus.tlg.uci.edu/",
+        "url" => "tlg.php",
         "tags" => ["grec", "antiquité", "bases de données"]
     ],  
 
