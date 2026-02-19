@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P.A.N — Prototype (TLG)</title>
+  <link rel="stylesheet" href="style.css.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-top">
+      <div class="brand">P.A.N</div>
+    </div>
+
+    <nav class="menu-bar" aria-label="Navigation principale">
+      <a class="menu-link" href="index.html">Portail</a>
+      <a class="menu-link" href="#">Pédagogie</a>
+      <a class="menu-link" href="#">Vulgarisation</a>
+      <a class="menu-link" href="#">À propos</a>
+    </nav>
+  </header>
+
+  <main class="page">
+
+    <!-- HAUT DE FICHE : gauche (titre + meta), droite (mots-clés) -->
+    <section class="top-row">
+      <div class="title-block">
+        <p class="breadcrumb">Portail › Corpus › Grec › TLG</p>
+
+        <h1 class="title">Thesaurus Linguae Graecae (TLG)</h1>
+        <p class="subtitle">Corpus de littérature grecque</p>
+
+        <div class="meta-under-title" aria-label="Informations">
+          <span class="pill">Langue : grec</span>
+          <span class="pill">Type : corpus</span>
+          <span class="pill">Accès : institution</span>
+          <span class="pill">Période : antique → byzantine</span>
+        </div>
+      </div>
+
+      <aside class="keywords-right" aria-label="Mots-clés">
+        <div class="kw-title">Mots-clés</div>
+        <div class="kw-grid">
+          <a class="kw" href="#">#grec</a>
+          <a class="kw" href="#">#corpus</a>
+          <a class="kw" href="#">#philologie</a>
+          <a class="kw" href="#">#texte</a>
+          <a class="kw" href="#">#recherche</a>
+          <a class="kw" href="#">#base_de_données</a>
+          <a class="kw" href="#">#antiquité</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ONGLETs -->
+    <nav class="tabs" aria-label="Onglets">
+      <button class="tab active" data-tab="resume" type="button">Résumé</button>
+      <button class="tab" data-tab="usages" type="button">Usages & limites</button>
+      <button class="tab" data-tab="aide" type="button">Aide & tutoriels</button>
+      <button class="tab" data-tab="similaires" type="button">Ressources similaires</button>
+      <button class="tab" data-tab="plus" type="button">En savoir plus</button>
+    </nav>
+
+    <section class="content">
+      <div class="panel active" id="resume">
+        <p>xxx xxx xxx xxx xxx xxx xxx</p>
+      </div>
+
+      <div class="panel" id="usages">
+        <div class="columns">
+          <div class="col">
+            <h2>Usages</h2>
+            <ul>
+              <li>xxx</li><li>xxx</li><li>xxx</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Limites</h2>
+            <ul>
+              <li>xxx</li><li>xxx</li><li>xxx</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" id="aide">
+        <p>xxx xxx xxx</p>
+      </div>
+
+      <div class="panel" id="similaires">
+        <ul>
+          <li>xxx — xxx</li>
+          <li>xxx — xxx</li>
+        </ul>
+      </div>
+
+      <div class="panel" id="plus">
+        <p>xxx xxx xxx</p>
+      </div>
+    </section>
+
+    <div class="cta-row">
+      <a class="btn-access" href="#" target="_blank" rel="noopener">Accès au site</a>
+    </div>
+
+  </main>
+
+  <script src="tabs.js"></script>
+</body>
+</html>
