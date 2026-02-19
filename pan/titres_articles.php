@@ -8,9 +8,9 @@ $articles = [
     ],  
 
     [
-        "titre" => "Guide HTML",
-        "description" => "Créer un site web",
-        "url" => "https://exemple.com/html",
+        "titre" => "Ressource type",
+        "description" => "Page de test pour les ressources",
+        "url" => "tests/ressources/resource.html",
         "tags" => ["html", "web", "développement"]
     ],
     
