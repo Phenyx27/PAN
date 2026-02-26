@@ -74,7 +74,7 @@ function renderNotFound(slug) {
 
 function renderLoadError() {
   setText("resource-title", "Erreur de chargement");
-  setText("resource-subtitle", "Impossible de charger ressources.json.");
+  setText("resource-subtitle", "Impossible de charger resources.json.");
   setText("resume-text", "Vérifiez que vous lancez la page via un serveur local (pas en double-clic file://). ");
 }
 
