@@ -1,7 +1,7 @@
 {
  "_comment1": "page Thesaurus Linguae Graecae",
   "tlg": {
-    "breadcrumb": "Portail › Corpus › Grec › TLG",
+    "fil": "Portail › Corpus › Grec › TLG",
     "title": "Thesaurus Linguae Graecae (TLG)",
     "subtitle": "Corpus de littérature grecque",
     "meta": [
@@ -46,7 +46,7 @@
  "_comment": "page Persée",
 
   "persee": {
-    "breadcrumb": "Portail › Revues › Persée",
+    "fil": "Portail › Revues › Persée",
     "title": "Persée",
     "subtitle": "Portail de revues scientifiques",
     "meta": ["Langue : français", "Type : bibliothèque", "Accès : libre", "Période : moderne"],
