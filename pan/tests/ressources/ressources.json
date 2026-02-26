@@ -35,8 +35,8 @@
       },
       "aide": "Commencer par une recherche simple, puis filtrer par auteur/période. Garder une fiche méthode partagée pour l'équipe.",
       "similaires": [
-        { "name": "Perseus", "desc": "Bibliothèque numérique et corpus", "url": "https://www.perseus.tufts.edu/" },
-        { "name": "PHI", "desc": "Corpus latin et outils de recherche", "url": "https://www.thelatinlibrary.com/" }
+       { "name": "Perseus", "desc": "Bibliothèque numérique et corpus", "url": "https://www.perseus.tufts.edu/" },
+        { "name": "PHI", "desc": "Corpus latin et outils de recherche", "accessUrl": "https://www.thelatinlibrary.com/" }
       ],
       "plus": "Site officiel, documentation académique, tutoriels vidéo, ateliers de prise en main."
     },
