@@ -1,0 +1,66 @@
+{
+ "_comment1": "page Thesaurus Linguae Graecae",
+  "tlg": {
+    "breadcrumb": "Portail › Corpus › Grec › TLG",
+    "title": "Thesaurus Linguae Graecae (TLG)",
+    "subtitle": "Corpus de littérature grecque",
+    "meta": [
+      "Langue : grec",
+      "Type : corpus",
+      "Accès : institution",
+      "Période : antique → byzantine"
+    ],
+    "keywords": [
+      "grec",
+      "corpus",
+      "philologie",
+      "texte",
+      "recherche",
+      "base_de_données",
+      "antiquité"
+    ],
+    "tabs": {
+      "resume": "Le TLG regroupe de très nombreux textes grecs et permet des recherches fines dans un corpus large.",
+      "usages": {
+        "items": [
+          "Repérer des occurrences d'un mot rapidement",
+          "Comparer des usages entre auteurs",
+          "Préparer des cours de langue grecque"
+        ],
+        "limits": [
+          "Accès parfois restreint selon les établissements",
+          "Interface dense pour les débutants",
+          "Nécessite un peu de formation initiale"
+        ]
+      },
+      "aide": "Commencer par une recherche simple, puis filtrer par auteur/période. Garder une fiche méthode partagée pour l'équipe.",
+      "similaires": [
+        { "name": "Perseus", "desc": "Bibliothèque numérique et corpus", "url": "https://www.perseus.tufts.edu/" },
+        { "name": "PHI", "desc": "Corpus latin et outils de recherche", "url": "https://www.thelatinlibrary.com/" }
+      ],
+      "plus": "Site officiel, documentation académique, tutoriels vidéo, ateliers de prise en main."
+    },
+    "accessUrl": "https://stephanus.tlg.uci.edu/"
+  },
+
+ "_comment": "page Persée",
+
+  "persee": {
+    "breadcrumb": "Portail › Revues › Persée",
+    "title": "Persée",
+    "subtitle": "Portail de revues scientifiques",
+    "meta": ["Langue : français", "Type : bibliothèque", "Accès : libre", "Période : moderne"],
+    "keywords": ["revues", "sciences humaines", "articles", "accès libre"],
+    "tabs": {
+      "resume": "Persée donne accès à de nombreuses revues en texte intégral.",
+      "usages": {
+        "items": ["Faire une veille", "Trouver des articles de référence"],
+        "limits": ["Tout n'est pas indexé pareil", "Ergonomie variable selon les pages"]
+      },
+      "aide": "Utiliser les filtres thématiques dès le départ.",
+      "similaires": [{ "name": "Cairn", "desc": "Plateforme de publications francophones" }],
+      "plus": "Consulter les pages d'aide pour export bibliographique."
+    },
+    "accessUrl": "https://www.persee.fr"
+  }
+}

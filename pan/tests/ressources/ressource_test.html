@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../../logo_pan.png">
+  <title>P.A.N — Prototype (TLG)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-top">
+      <div class="brand">P.A.N</div>
+    </div>
+
+    <nav class="menu-bar" aria-label="Navigation principale">
+      <a class="menu-link" href="index.html">Portail</a>
+      <a class="menu-link" href="#">Pédagogie</a>
+      <a class="menu-link" href="#">Vulgarisation</a>
+      <a class="menu-link" href="#">À propos</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="top-row">
+      <div class="title-block">
+        <p class="breadcrumb" id="breadcrumb"></p>
+
+        <h1 class="title" id="resource-title"></h1>
+        <p class="subtitle" id="resource-subtitle"></p>
+
+        <div class="meta-under-title" id="meta-under-title" aria-label="Informations"></div>
+      </div>
+
+      <aside class="keywords-right" aria-label="Mots-clés">
+        <div class="kw-title">Mots-clés</div>
+        <div class="kw-grid" id="kw-grid"></div>
+      </aside>
+    </section>
+
+    <nav class="tabs" aria-label="Onglets">
+      <button class="tab active" data-tab="resume" type="button">Résumé</button>
+      <button class="tab" data-tab="usages" type="button">Usages & limites</button>
+      <button class="tab" data-tab="aide" type="button">Aide & tutoriels</button>
+      <button class="tab" data-tab="similaires" type="button">Ressources similaires</button>
+      <button class="tab" data-tab="plus" type="button">En savoir plus</button>
+    </nav>
+
+    <section class="content">
+      <div class="panel active" id="resume">
+        <p id="resume-text"></p>
+      </div>
+
+      <div class="panel" id="usages">
+        <div class="columns">
+          <div class="col">
+            <h2>Usages</h2>
+            <ul id="usages-list"></ul>
+          </div>
+          <div class="col">
+            <h2>Limites</h2>
+            <ul id="limits-list"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" id="aide">
+        <p id="aide-text"></p>
+      </div>
+
+      <div class="panel" id="similaires">
+        <ul id="similaires-list"></ul>
+      </div>
+
+      <div class="panel" id="plus">
+        <p id="plus-text"></p>
+      </div>
+    </section>
+
+    <div class="cta-row">
+      <a class="btn-access" id="btn-access" href="../../index.php" target="_blank" rel="noopener">Accès à la ressource</a>
+    </div>
+
+  </main>
+
+    <script src="tabs.js"></script>
+</body>
+</html>
